@@ -19,6 +19,12 @@
           <a class="nav-link" routerLink="/second">details</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" routerLink="/login">login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/register">Register</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#">Pricing</a>
         </li>
         <li class="nav-item">
@@ -58,7 +64,7 @@
             <input type="text" class="form-control"  placeholder="phone" formControlName="phone">
           </div>
                </form>
-        
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -78,7 +84,7 @@
 <table class="table">
     <thead>
       <tr>
-       
+
         <th scope="col">name</th>
         <th scope="col">email</th>
         <th scope="col">phone</th>
@@ -91,7 +97,7 @@
       <td class="bg-success">{{elaya.email}}</td>
       <td>{{elaya.phone}}</td>
       <td class="text-danger" (click)="d(elaya)">D</td>
-    
+
       </tr>
     </tbody>
   </table>
@@ -102,11 +108,11 @@
         <h5 class="card-title">{{getsinglename}}</h5>
         <h6 class="card-subtitle mb-5 text-muted">{{getsingleemail}}</h6>
         <p class="card-text text-danger">{{getphone}}</p>
-     
+
       </div>
     </div>
   </div>
 </div>
 
-  
+
 </div>

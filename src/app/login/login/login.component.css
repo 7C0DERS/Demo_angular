@@ -1,0 +1,13 @@
+.bg-purple{
+  background-color: #38415e;
+
+}
+.bg-darkblue{
+  background-color: rgba(42, 14, 123, 0.934);
+}
+.text-purple{
+  color:blueviolet;
+}
+.text-bold{
+  font-weight: bolder;
+}
